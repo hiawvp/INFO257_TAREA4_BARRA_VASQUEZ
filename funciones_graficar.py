@@ -13,8 +13,12 @@ categories = { "train" : ("train_accy", "train_loss"),
 def data_extractor(path, category):
     data = []
     for file in sorted(listdir(path)):
+        #file : run - model/label - time - tag - ej"train_loss.csv" 
         name = file.split("-")
-        model = name[1]
+        if (len(name)== 6):
+            model = name[1] + "-" + name[2]
+        else:
+            model = name[1]
         if (category == (name[-1].split("."))[0]):
             values = list(pd.read_csv(join(path, file))["Value"])
             data.append((model, values))
