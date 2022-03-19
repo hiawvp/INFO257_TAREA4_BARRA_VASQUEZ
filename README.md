@@ -1,7 +1,12 @@
-# INFO257_TAREA4_BARRA_VASQUEZ
-Tarea de unidad
+# INFO257 - INTELIGENCIA ARTIFICIAL UNIDAD 4
 
-## Integrantes
+## Tarea de unidad: Clasificador de piezas de arte
 
-- Matías Barra
-- José Vásquez
+
+### Integrantes
+
+- Matías Barra [@matiasbarram](https://github.com/matiasbarram)
+- José Vásquez [@hiawvp](https://github.com/hiawvp)
+
+
+### tags: Computer Vision, Residual Network, torch, torchvision, ignite, sklearn
